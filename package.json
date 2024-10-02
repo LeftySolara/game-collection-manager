@@ -1,0 +1,16 @@
+{
+  "name": "game-backlog-tracker",
+  "version": "0.0.1",
+  "description": "A self-hosted video game collection manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Julianne Adams <julianne@julianneadams.dev> (http://julianneadams.dev)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.9.0"
+  },
+  "type": "module"
+}
