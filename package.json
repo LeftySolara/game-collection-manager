@@ -12,5 +12,8 @@
   "engines": {
     "node": ">=22.9.0"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
 }
