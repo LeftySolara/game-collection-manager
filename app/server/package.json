@@ -1,0 +1,28 @@
+{
+  "name": "game-collection-manager-server",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/app.ts",
+    "start": "tsc && node dist/app.js",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Julianne Adams <julianne@julianneadams.dev> (http://julianneadams.dev)",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.4",
+    "eslint": "^9.11.1",
+    "globals": "^15.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.8.0"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
