@@ -1,11 +1,20 @@
-import express from "express";
-const app = express();
-const port = 3000;
+import Fastify from "fastify";
 
-app.get("/", (req, res) => {
-  res.send("Hello World!");
+const fastify = Fastify({
+  logger: true,
 });
 
-app.listen(port, () => {
-  return console.log(`Express is listening at http://localhost:${port}`);
+fastify.get("/", function (request, reply) {
+  reply.send({ hello: "world" });
 });
+
+const start = async () => {
+  try {
+    await fastify.listen({ port: 3000 });
+  } catch (err) {
+    fastify.log.error(err);
+    process.exit(1);
+  }
+};
+
+start();
