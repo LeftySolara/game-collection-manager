@@ -1,0 +1,15 @@
+services:
+  api:
+    build: ./app/server
+    container_name: gcm-api
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./api:/app/server
+  client:
+    build: ./app/client
+    container_name: gcm-client
+    ports:
+      - "80:80"
+    volumes:
+      - ./client:/app/client
