@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "dev": "ts-node src/app.ts",
     "start": "tsc && node dist/app.js",
     "lint": "eslint . --ext .ts",
