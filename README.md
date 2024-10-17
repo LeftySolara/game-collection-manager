@@ -53,3 +53,19 @@ front end and Node/Fastify/PostgreSQL on the back end.
 - Node.js - version 22.9.0
 - Fastify - version 5.0.0
 - PostgreSQL - version 17.0
+
+## Planned Features
+
+- [ ] Add and remove games from collections and sub-collections
+- [ ] Group games by collections and sub-collections
+- [ ] View collections and sub-collections in a dashboard
+- [ ] Manage backlog by assigning a status to each game
+- [ ] Add notes to games
+- [ ] Custom fields
+- [ ] Batch editing
+- [ ] Multiple users with password authentication
+- [ ] Import game information from IGDB
+- [ ] Import library from Steam
+- [ ] Import playtime from Steam
+- [ ] Export to CSV
+- [ ] Multiple UI themes
