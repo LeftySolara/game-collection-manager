@@ -18,11 +18,13 @@
 Game Collection Manager is a self-hosted web application for managing your
 video game collection and backlog. It is meant to be an easy way to view your
 games at a glance and keep track of them without having to create unwieldy
-spreadsheets. The app also allows importing game information from
+spreadsheets.
+
+The app also allows importing game information from
 [IGDB](https://www.igdb.com/) and [Steam](https://store.steampowered.com/),
 reducing the friction involved with adding new entries to your collection.
 Intuitive batch editing allows you to quickly update multiple entries
-with minimal effort, making it easy to catch up after not recording change
+with minimal effort, making it easy to catch up after not recording changes
 for a long period of time.
 
 ### Why Am I Making This?
