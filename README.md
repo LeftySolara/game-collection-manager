@@ -34,3 +34,22 @@ changes that piled up? **This is the problem I aim to solve**. As an adult
 living with ADHD, I have a lot of things to track and can't always keep up
 with recording everything. I want to make it as easy as possible to return to
 my trackers after a long period away from them.
+
+## Technologies Used
+
+This is a full stack application written in Typescript. It uses React on the
+front end and Node/Fastify/PostgreSQL on the back end.
+
+### Front End
+
+- Typescript - version 5.5.3
+- Vite - version 5.4.8
+- React - version 18.3.1
+- PostCSS - version 8.4.47
+
+### Back End
+
+- Typescr.ipt - version 5.5.3
+- Node.js - version 22.9.0
+- Fastify - version 5.0.0
+- PostgreSQL - version 17.0
