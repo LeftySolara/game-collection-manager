@@ -58,7 +58,7 @@ front end and Node/Fastify/PostgreSQL on the back end.
 
 ### Back End
 
-- Typescr.ipt - version 5.5.3
+- Typescript - version 5.5.3
 - Node.js - version 22.9.0
 - Fastify - version 5.0.0
 - PostgreSQL - version 17.0
