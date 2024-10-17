@@ -4,7 +4,9 @@
 
 ## Table of Contents
 
-[General Info](#general-information)
+- [General Info](#general-information)
+- [Technologies Used](#technologies-used)
+- [Planned Features](#planned-features)
 
 ## General Information
 
