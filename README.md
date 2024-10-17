@@ -7,6 +7,11 @@
 - [General Info](#general-information)
 - [Technologies Used](#technologies-used)
 - [Planned Features](#planned-features)
+- [Screenshots](#screenshots)
+- [Development Setup](#development-setup)
+- [Usage](#usage)
+- [Project Status](#project-status)
+- [Contact](#contact)
 
 ## General Information
 
@@ -71,3 +76,27 @@ front end and Node/Fastify/PostgreSQL on the back end.
 - [ ] Import playtime from Steam
 - [ ] Export to CSV
 - [ ] Multiple UI themes
+
+## Screenshots
+
+_Coming soon..._
+
+## Development Setup
+
+_Coming soon..._
+
+## Usage
+
+Clone this repository and run `docker compose up`. In the future there will
+be an image uploaded online, so cloning won't be necessary.
+
+## Project Status
+
+This project is in its infancy and most features have not been implemented yet.
+I work on this in my spare time, so progress may be slow at times.
+
+## Contact
+
+Created by [Julianne Adams](https://github.com/LeftySolara).
+
+[Email link](mailto:julianne@julianneadams.dev)
