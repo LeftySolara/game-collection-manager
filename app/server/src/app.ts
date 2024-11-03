@@ -1,20 +1,9 @@
-import Fastify from "fastify";
+import { serve } from "@hono/node-server";
+import { Hono } from "hono";
 
-const fastify = Fastify({
-  logger: true,
+const app = new Hono();
+app.get("/", (c) => c.text("Hello World!"));
+
+serve(app, (info) => {
+  console.log(`Listening on http://localhost:${info.port}`);
 });
-
-fastify.get("/", function (request, reply) {
-  reply.send({ hello: "world" });
-});
-
-const start = async () => {
-  try {
-    await fastify.listen({ port: 3000, host: "0.0.0.0" });
-  } catch (err) {
-    fastify.log.error(err);
-    process.exit(1);
-  }
-};
-
-start();
