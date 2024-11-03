@@ -60,7 +60,7 @@ front end and Node/Fastify/PostgreSQL on the back end.
 
 - Typescript - version 5.5.3
 - Node.js - version 22.9.0
-- Fastify - version 5.0.0
+- Hono - version 4.6.8
 - PostgreSQL - version 17.0
 
 ## Planned Features
