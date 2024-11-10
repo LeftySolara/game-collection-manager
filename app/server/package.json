@@ -16,6 +16,8 @@
   "devDependencies": {
     "@eslint/js": "^9.14.0",
     "@types/node": "^22.8.7",
+    "@types/pg": "^8.11.10",
+    "drizzle-kit": "^0.28.0",
     "eslint": "^9.14.0",
     "globals": "^15.11.0",
     "ts-node": "^10.9.2",
@@ -24,6 +26,9 @@
   },
   "dependencies": {
     "@hono/node-server": "^1.13.4",
-    "hono": "^4.6.8"
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.36.1",
+    "hono": "^4.6.8",
+    "pg": "^8.13.1"
   }
 }
