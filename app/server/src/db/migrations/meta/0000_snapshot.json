@@ -1,0 +1,50 @@
+{
+  "id": "954132f8-346c-4fa1-8fb3-84e839a0496f",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.metadata": {
+      "name": "metadata",
+      "schema": "",
+      "columns": {
+        "application_version_major": {
+          "name": "application_version_major",
+          "type": "smallint",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "application_version_minor": {
+          "name": "application_version_minor",
+          "type": "smallint",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "application_version_patch": {
+          "name": "application_version_patch",
+          "type": "smallint",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "sequences": {},
+  "roles": {},
+  "policies": {},
+  "views": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}
